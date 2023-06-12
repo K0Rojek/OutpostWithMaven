@@ -1,15 +1,16 @@
-package outPost;
+package outPost.panele;
 
+import outPost.PaczkomatGUI;
 import outPost.pola.PoleTekstoweBazowe;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class PanelOdbioru extends JPanel {
-    PanelPowrotZatwierdz dolnyPanel;
-    PoleTekstoweBazowe poleTelefon, poleKodOdbioru;
-    JLabel napisOdbioru, napisTelefon, zleDane;
-    GridBagConstraints gbc;
+    public PanelPowrotZatwierdz dolnyPanel;
+    public PoleTekstoweBazowe poleTelefon, poleKodOdbioru;
+    public JLabel napisOdbioru, napisTelefon, zleDane;
+    public GridBagConstraints gbc;
 
     public PanelOdbioru() {
         setLayout(new GridBagLayout());

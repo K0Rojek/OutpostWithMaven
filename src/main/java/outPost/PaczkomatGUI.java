@@ -4,6 +4,7 @@ import outPost.paczki.Paczka;
 import outPost.paczki.PaczkaM;
 import outPost.paczki.PaczkaS;
 import outPost.paczki.PaczkaXXL;
+import outPost.panele.*;
 import outPost.wyjatki.WprowadzonoBledneDaneWyjatek;
 
 import java.awt.*;
@@ -264,12 +265,14 @@ public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
                     throw new WprowadzonoBledneDaneWyjatek(ramka);
                 }
                 else {
-                    boolean flaga = false;
+                    System.out.println("jestem w elsie");
+                    boolean flagaExp = false;
+
                     for(PaczkomatGUI paczkomacik:Outpost.paczkomaty) {
-                        if(kodPaczkomatuDocelowego == paczkomacik.kodPaczkomatu)
-                            flaga = true;
+                        if(kodPaczkomatuDocelowego.equals(paczkomacik.kodPaczkomatu))
+                            flagaExp = true;
                     }
-                    if (flaga != true) {
+                    if (flagaExp != true) {
                         throw new WprowadzonoBledneDaneWyjatek(ramka);
                     }
                     else {

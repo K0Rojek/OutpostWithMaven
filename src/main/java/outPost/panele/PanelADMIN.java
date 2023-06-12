@@ -1,7 +1,8 @@
-package outPost;
+package outPost.panele;
 
 import javax.swing.*;
 
+import outPost.PaczkomatGUI;
 import outPost.przyciski.PrzyciskBazowy;
 import outPost.paczki.Paczka;
 
@@ -9,12 +10,12 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class PanelADMIN extends JPanel {
-     JPanel panelPaczki;
-     JLabel labelADMIN;
-     JLabel labelPaczki;
-     JButton buttonPowrot;
+    public JPanel panelPaczki;
+    public JLabel labelADMIN;
+    public JLabel labelPaczki;
+    public JButton buttonPowrot;
 
-     ArrayList<Paczka> listaPaczek;
+    public ArrayList<Paczka> listaPaczek;
 
     public PanelADMIN() {
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);
@@ -48,7 +49,7 @@ public class PanelADMIN extends JPanel {
         add(buttonPowrot, BorderLayout.SOUTH);
     }
 
-    void setTekstPaczek() {
+    public void setTekstPaczek() {
         String paczki = "<html> ";
         for (Paczka p: listaPaczek) {
             paczki += p.toString() + "<br>"; // POLIMORFIZM

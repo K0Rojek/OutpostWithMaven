@@ -1,4 +1,4 @@
-package outPost;
+package outPost.panele;
 
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -9,14 +9,15 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 
+import outPost.PaczkomatGUI;
 import outPost.przyciski.PrzyciskBazowy;
 import outPost.przyciski.PrzyciskPowrot;
 
 public class PanelPlatnosc extends JPanel {
-    JButton buttonPowrot;
-    JButton buttonZaplac;
-    JLabel labelKwota;
-    double kwotaDoZaplaty;
+    public JButton buttonPowrot;
+    public JButton buttonZaplac;
+    public JLabel labelKwota;
+    public double kwotaDoZaplaty;
 
     public PanelPlatnosc() {
         setLayout(new GridBagLayout());

@@ -1,11 +1,13 @@
-package outPost;
+package outPost.panele;
+
+import outPost.PaczkomatGUI;
 
 import java.awt.Font;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class PanelOutpost extends JPanel {
-    JLabel tytul;
+    public JLabel tytul;
     public PanelOutpost() {
         // Ustawienie background kolor panelu
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);

@@ -1,5 +1,6 @@
-package outPost;
+package outPost.panele;
 
+import outPost.PaczkomatGUI;
 import outPost.przyciski.PrzyciskADMIN;
 import outPost.przyciski.PrzyciskBazowy;
 import outPost.przyciski.PrzyciskNadajPaczke;
@@ -14,8 +15,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class PanelGlowny extends JPanel{
-    JLabel napisWyboru;
-    PrzyciskBazowy buttonOdbierz, buttonNadaj, buttonADMIN;
+    public JLabel napisWyboru;
+    public PrzyciskBazowy buttonOdbierz, buttonNadaj, buttonADMIN;
 
     public PanelGlowny() {
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);

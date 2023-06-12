@@ -1,5 +1,6 @@
-package outPost;
+package outPost.panele;
 
+import outPost.PaczkomatGUI;
 import outPost.przyciski.PrzyciskBazowy;
 import outPost.pola.PoleTekstoweBazowe;
 
@@ -7,8 +8,8 @@ import javax.swing.*;
 import java.awt.*;
 
 public class PanelCentrala extends JPanel {
-    PrzyciskBazowy przyciskBazowy;
-    PoleTekstoweBazowe poleWysylka;
+    public PrzyciskBazowy przyciskBazowy;
+    public PoleTekstoweBazowe poleWysylka;
 
     public PanelCentrala() {
         setLayout(new GridBagLayout());

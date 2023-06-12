@@ -1,7 +1,8 @@
-package outPost;
+package outPost.panele;
 
 import javax.swing.JPanel;
 
+import outPost.PaczkomatGUI;
 import outPost.pola.PoleTekstoweBazowe;
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +12,7 @@ public class PanelPIN extends JPanel {
     public PoleTekstoweBazowe polePIN;
     public JLabel napisZlyPIN;
     public final String PIN;
-    GridBagConstraints gbc;
+    public GridBagConstraints gbc;
     public PanelPIN() {
         PIN =  "1234";
         setLayout(new GridBagLayout());

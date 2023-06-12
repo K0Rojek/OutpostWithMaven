@@ -1,4 +1,5 @@
-package outPost;
+package outPost.panele;
+import outPost.PaczkomatGUI;
 import outPost.przyciski.PrzyciskBazowy;
 import outPost.przyciski.PrzyciskPowrot;
 
@@ -12,9 +13,9 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 public class PanelWybierzPaczke extends JPanel {
-    JLabel napisWyboru;
-    PrzyciskBazowy buttonXXL,buttonM,buttonS;
-    JButton przyciskPowrot;
+    public JLabel napisWyboru;
+    public PrzyciskBazowy buttonXXL,buttonM,buttonS;
+    public JButton przyciskPowrot;
 
     public PanelWybierzPaczke() {
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);

@@ -1,5 +1,6 @@
-package outPost;
+package outPost.panele;
 
+import outPost.PaczkomatGUI;
 import outPost.pola.PoleTekstoweBazowe;
 
 import java.awt.Font;
@@ -13,8 +14,8 @@ import javax.swing.JPanel;
 
 public class PanelDanePaczki extends JPanel{
 
-    PanelPowrotZatwierdz dolnyPanel;
-    PoleTekstoweBazowe poleTelefonNadawcy, poleTelefonOdbiorcy, poleKodPaczkomatu;
+    public PanelPowrotZatwierdz dolnyPanel;
+    public PoleTekstoweBazowe poleTelefonNadawcy, poleTelefonOdbiorcy, poleKodPaczkomatu;
 
     public PanelDanePaczki() {
         setLayout(new GridBagLayout());

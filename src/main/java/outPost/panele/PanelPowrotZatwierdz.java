@@ -1,5 +1,6 @@
-package outPost;
+package outPost.panele;
 
+import outPost.PaczkomatGUI;
 import outPost.przyciski.PrzyciskBazowy;
 import outPost.przyciski.PrzyciskPowrot;
 import outPost.przyciski.PrzyciskZatwierdz;

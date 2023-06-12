@@ -1,7 +1,5 @@
 package outPost;
 
-import java.beans.XMLDecoder;
-import java.beans.XMLEncoder;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -9,6 +7,8 @@ import java.util.Iterator;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import outPost.paczki.Paczka;
+import outPost.panele.PanelCentrala;
+import outPost.panele.PanelOutpost;
 
 public class Outpost{
     Ramka ramka;
