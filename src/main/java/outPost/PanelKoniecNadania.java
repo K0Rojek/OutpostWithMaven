@@ -9,7 +9,7 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import outPost.buttons.PrzyciskPowrot;
+import outPost.przyciski.PrzyciskPowrot;
 
 public class PanelKoniecNadania extends JPanel {
     JButton buttonPowrot;

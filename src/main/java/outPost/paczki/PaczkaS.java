@@ -25,7 +25,7 @@ public class PaczkaS extends Paczka{
     }
 
     @Override
-    public String wyswietlKod(){
+    public String wyswietlTyp(){
         return "S";
     }
 }

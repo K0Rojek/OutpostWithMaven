@@ -1,11 +1,10 @@
 package outPost;
 
-import outPost.buttons.PrzyciskADMIN;
-import outPost.buttons.PrzyciskBazowy;
-import outPost.buttons.PrzyciskNadajPaczke;
-import outPost.buttons.PrzyciskOdbierzPaczke;
+import outPost.przyciski.PrzyciskADMIN;
+import outPost.przyciski.PrzyciskBazowy;
+import outPost.przyciski.PrzyciskNadajPaczke;
+import outPost.przyciski.PrzyciskOdbierzPaczke;
 
-import java.awt.BorderLayout;
 import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;

@@ -1,6 +1,6 @@
 package outPost;
 
-import outPost.buttons.PrzyciskPowrot;
+import outPost.przyciski.PrzyciskPowrot;
 
 import javax.swing.*;
 import java.awt.*;

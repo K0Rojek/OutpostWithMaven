@@ -1,4 +1,4 @@
-package outPost.buttons;
+package outPost.przyciski;
 
 import outPost.PaczkomatGUI;
 

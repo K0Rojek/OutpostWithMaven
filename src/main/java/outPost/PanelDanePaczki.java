@@ -1,6 +1,6 @@
 package outPost;
 
-import outPost.fields.PoleTekstoweBazowe;
+import outPost.pola.PoleTekstoweBazowe;
 
 import java.awt.Font;
 import java.awt.GridBagConstraints;

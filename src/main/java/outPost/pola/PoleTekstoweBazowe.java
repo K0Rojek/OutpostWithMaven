@@ -1,4 +1,4 @@
-package outPost.fields;
+package outPost.pola;
 
 import javax.swing.*;
 import java.awt.*;

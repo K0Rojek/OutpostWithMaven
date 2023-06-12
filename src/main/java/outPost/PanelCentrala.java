@@ -1,8 +1,7 @@
 package outPost;
 
-import outPost.PaczkomatGUI;
-import outPost.buttons.PrzyciskBazowy;
-import outPost.fields.PoleTekstoweBazowe;
+import outPost.przyciski.PrzyciskBazowy;
+import outPost.pola.PoleTekstoweBazowe;
 
 import javax.swing.*;
 import java.awt.*;

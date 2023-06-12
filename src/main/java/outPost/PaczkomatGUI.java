@@ -4,13 +4,10 @@ import outPost.paczki.Paczka;
 import outPost.paczki.PaczkaM;
 import outPost.paczki.PaczkaS;
 import outPost.paczki.PaczkaXXL;
+import outPost.wyjatki.WprowadzonoBledneDaneWyjatek;
 
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Random;
 import javax.swing.*;
 
 public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
@@ -212,7 +209,7 @@ public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
                 default -> paczkaDoNadania = new PaczkaXXL();
             }
             listaPaczek.add(paczkaDoNadania);
-            wymiarPaczki = paczkaDoNadania.wyswietlKod(); // Polimorficzne wywołanie
+            wymiarPaczki = paczkaDoNadania.wyswietlTyp(); // Polimorficzne wywołanie
             wymiarPaczki = "Twoj rozmiar paczki to: " + wymiarPaczki + " , Kod Twojej paczki to: " + kodOdbioru;
             JOptionPane.showMessageDialog(ramka,wymiarPaczki);
             ramka.remove(panelPlatnosc);

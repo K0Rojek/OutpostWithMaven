@@ -1,5 +1,9 @@
 package outPost.paczki;
 
 public interface typPaczki {
-    public String wyswietlKod();
+    /**
+     * metoda wyswietli typ paczki
+     * @return typ paczki
+     */
+    public String wyswietlTyp();
 }

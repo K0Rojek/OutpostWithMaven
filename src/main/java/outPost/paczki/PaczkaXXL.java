@@ -24,7 +24,7 @@ public class PaczkaXXL extends Paczka{
         rozmiarGlebokosc = glebokosc;
     }
     @Override
-    public String wyswietlKod(){
+    public String wyswietlTyp(){
         return "XXL";
     }
 }

@@ -2,7 +2,7 @@ package outPost;
 
 import javax.swing.*;
 
-import outPost.buttons.PrzyciskBazowy;
+import outPost.przyciski.PrzyciskBazowy;
 import outPost.paczki.Paczka;
 
 import java.awt.*;

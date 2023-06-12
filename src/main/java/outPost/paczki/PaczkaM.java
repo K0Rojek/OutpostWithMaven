@@ -24,7 +24,7 @@ public class PaczkaM extends Paczka{
         rozmiarGlebokosc = glebokosc;
     }
     @Override
-    public String wyswietlKod(){
+    public String wyswietlTyp(){
         return "M";
     }
 

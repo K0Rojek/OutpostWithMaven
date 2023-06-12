@@ -2,7 +2,7 @@ package outPost;
 
 import javax.swing.JPanel;
 
-import outPost.fields.PoleTekstoweBazowe;
+import outPost.pola.PoleTekstoweBazowe;
 import javax.swing.*;
 import java.awt.*;
 

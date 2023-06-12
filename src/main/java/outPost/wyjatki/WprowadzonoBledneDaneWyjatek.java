@@ -1,4 +1,4 @@
-package outPost;
+package outPost.wyjatki;
 
 import javax.swing.*;
 
@@ -7,7 +7,7 @@ public class WprowadzonoBledneDaneWyjatek extends Exception{
     public WprowadzonoBledneDaneWyjatek(JFrame ramka) {
         this.ramka = ramka;
     }
-    void napisBledneDane() {
+    public void napisBledneDane() {
         JOptionPane.showMessageDialog(ramka,"Wprowadzono bledne dane!");
     }
 }

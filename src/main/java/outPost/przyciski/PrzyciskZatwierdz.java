@@ -1,4 +1,4 @@
-package outPost.buttons;
+package outPost.przyciski;
 
 public class PrzyciskZatwierdz extends PrzyciskBazowy {
     public PrzyciskZatwierdz() {

@@ -1,11 +1,9 @@
 package outPost;
 
-import outPost.fields.PoleTekstoweBazowe;
+import outPost.pola.PoleTekstoweBazowe;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class PanelOdbioru extends JPanel {
     PanelPowrotZatwierdz dolnyPanel;

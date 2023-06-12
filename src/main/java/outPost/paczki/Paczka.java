@@ -43,7 +43,7 @@ public class Paczka implements typPaczki {
     }
 
     @Override
-    public String wyswietlKod(){
+    public String wyswietlTyp(){
         return "Default";
     }
     public String getNumerTelefonuOdbiorcy() {

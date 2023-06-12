@@ -9,8 +9,8 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 
-import outPost.buttons.PrzyciskBazowy;
-import outPost.buttons.PrzyciskPowrot;
+import outPost.przyciski.PrzyciskBazowy;
+import outPost.przyciski.PrzyciskPowrot;
 
 public class PanelPlatnosc extends JPanel {
     JButton buttonPowrot;

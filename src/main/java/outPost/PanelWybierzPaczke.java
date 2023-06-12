@@ -1,8 +1,7 @@
 package outPost;
-import outPost.buttons.PrzyciskBazowy;
-import outPost.buttons.PrzyciskPowrot;
+import outPost.przyciski.PrzyciskBazowy;
+import outPost.przyciski.PrzyciskPowrot;
 
-import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridBagConstraints;
