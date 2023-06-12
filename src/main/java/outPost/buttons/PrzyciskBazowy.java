@@ -8,7 +8,7 @@ import java.awt.Font;
 
 import javax.swing.JButton;
 
-public class PrzyciskBazowy  extends JButton{
+public class PrzyciskBazowy  extends JButton {
 
     public PrzyciskBazowy() {
         setText(" ");
