@@ -18,6 +18,10 @@ public class PrzyciskBazowy  extends JButton {
         setFocusPainted(false);
         setPreferredSize(new Dimension(250, 50));
     }
+    /**
+     * Konstruktor przycisku z zadanym tekstem
+     * @param text treść przycisku
+     */
     public PrzyciskBazowy(String text) {
         setText(text);
         setBackground(PaczkomatGUI.Kolory.kolorPrzyciskow);
