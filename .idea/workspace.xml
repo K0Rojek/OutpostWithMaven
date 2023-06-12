@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff5fdbba-91ba-4517-9878-f147c049f6ec" name="Changes" comment="minor updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paczkomaty1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/paczkomaty1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paczkomaty1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/outPost/Outpost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/Outpost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PaczkomatGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/PaczkomatGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PanelADMIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelADMIN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PanelCentrala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelCentrala.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PanelDanePaczki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelDanePaczki.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PanelGlowny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelGlowny.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PanelKoniecNadania.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelKoniecNadania.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PanelOdbioru.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelOdbioru.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PanelOtwarciaSkrytki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelOtwarciaSkrytki.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PanelOutpost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelOutpost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PanelPIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelPIN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PanelPlatnosc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelPlatnosc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PanelPowrotZatwierdz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelPowrotZatwierdz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PanelWybierzPaczke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelWybierzPaczke.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686586934742</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="minor updates">
+      <created>1686589057477</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686589057477</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

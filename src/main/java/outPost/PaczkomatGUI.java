@@ -12,8 +12,7 @@ import java.util.ArrayList;
 import javax.swing.*;
 
 public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
-    //private static final long serialVersionUID = 1L; //tymczasowo serialVersionUID z wartością domyślną
-
+    //klasa wewnętrzna
     public class Kolory {
         static final public Color kolorTlaTytulu = new Color(255, 224, 179);
         static final public Color kolorPrzyciskow = new Color(255, 218, 137);
@@ -170,16 +169,6 @@ public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
                 ramka.remove(panelOdbioru);
                 ramka.add(panelOtwarciaSkrytki);
                 redraw();
-//                Timer timer = new Timer(5000, new ActionListener() {
-//                    @Override
-//                    public void actionPerformed(ActionEvent e) {
-//                        ramka.remove(panelOtwarciaSkrytki);
-//                        ramka.add(panelGlowny);
-//                        redraw();
-//                    }
-//                });
-//                timer.setRepeats(false);
-//                timer.start();
             }
         });
 
@@ -265,9 +254,7 @@ public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
                     throw new WprowadzonoBledneDaneWyjatek(ramka);
                 }
                 else {
-                    System.out.println("jestem w elsie");
                     boolean flagaExp = false;
-
                     for(PaczkomatGUI paczkomacik:Outpost.paczkomaty) {
                         if(kodPaczkomatuDocelowego.equals(paczkomacik.kodPaczkomatu))
                             flagaExp = true;

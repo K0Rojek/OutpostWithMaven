@@ -48,6 +48,10 @@ public class Outpost{
         });
     }
 
+    /**
+     * metoda przesyla paczki z paczkomaty nadawczego do docelowego
+     * @param kod kod paczkomatu nadawczego
+     */
     void przeslijPaczki(String kod) {
         PaczkomatGUI paczkomat = znajdzPaczkomatZaPomocaKodu(kod);
         if (paczkomat != null) {
@@ -67,6 +71,11 @@ public class Outpost{
         }
     }
 
+    /**
+     * metoda znajduje paczkomat przy pomocy kodu
+     * @param kod kod paczkomatu
+     * @return szukany paczkomat lub null
+     */
     PaczkomatGUI znajdzPaczkomatZaPomocaKodu(String kod) {
         for (PaczkomatGUI paczkomat : paczkomaty) {
             if (kod.equals(paczkomat.getKodPaczkomatu())) {
@@ -76,6 +85,9 @@ public class Outpost{
         return null;
     }
 
+    /**
+     * metoda serializuje paczkomaty i ich zawartość
+     */
     public static void serializePaczkomaty() {
         File xmlik = new File("paczkomaty1.xml");
         XmlMapper mapper = new XmlMapper();
@@ -86,6 +98,10 @@ public class Outpost{
         }
     }
 
+    /**
+     * metoda deserializuje paczkomaty
+     * @return array list z paczkomatami
+     */
     public static ArrayList<PaczkomatGUI> deserializePaczkomaty() {
         File xmlik = new File("paczkomaty1.xml");
         XmlMapper mapper = new XmlMapper();
