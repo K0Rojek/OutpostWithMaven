@@ -10,7 +10,9 @@ import java.awt.*;
 import java.util.ArrayList;
 
 
-
+/**
+ * klasa z panelem admina, dziedzicząca JPanel
+ */
 public class PanelADMIN extends JPanel {
     public JPanel panelPaczki;
     public JLabel labelADMIN;
@@ -19,6 +21,9 @@ public class PanelADMIN extends JPanel {
 
     public ArrayList<Paczka> listaPaczek;
 
+    /**
+     * konstruktor klasy PanelADMIN
+     */
     public PanelADMIN() {
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);
         setLayout(new BorderLayout());
@@ -51,6 +56,9 @@ public class PanelADMIN extends JPanel {
         add(buttonPowrot, BorderLayout.SOUTH);
     }
 
+    /**
+     * metoda labelująca paczuszki
+     */
     public void setTekstPaczek() {
         String paczki = "<html> ";
         for (Paczka p: listaPaczek) {

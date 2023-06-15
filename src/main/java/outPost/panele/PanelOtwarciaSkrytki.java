@@ -6,11 +6,17 @@ import outPost.przyciski.PrzyciskPowrot;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * klasa z panelem otwarcia skrtki paczkomatu, dziedzicząca JPanel
+ */
 public class PanelOtwarciaSkrytki extends JPanel {
     public JButton buttonPowrot;
     public JLabel labelPlatnosc;
     public JLabel labelPlatnosc2;
 
+    /**
+     * konstruktor
+     */
     public PanelOtwarciaSkrytki() {
         setLayout(new GridBagLayout());
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);

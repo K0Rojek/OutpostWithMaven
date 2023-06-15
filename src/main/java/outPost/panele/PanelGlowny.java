@@ -14,10 +14,16 @@ import java.awt.Insets;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+/**
+ * klasa z panelem głównym, dziedzicząca JPanel
+ */
 public class PanelGlowny extends JPanel{
     public JLabel napisWyboru;
     public PrzyciskBazowy buttonOdbierz, buttonNadaj, buttonADMIN;
 
+    /**
+     * konstruktor
+     */
     public PanelGlowny() {
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);
         setLayout(new GridBagLayout());

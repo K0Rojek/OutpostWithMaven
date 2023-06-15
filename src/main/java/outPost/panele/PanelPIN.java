@@ -7,12 +7,19 @@ import outPost.pola.PoleTekstoweBazowe;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * klasa z panelem PIN, dziedzicząca JPanel
+ */
 public class PanelPIN extends JPanel {
     public PanelPowrotZatwierdz dolnyPanel;
     public PoleTekstoweBazowe polePIN;
     public JLabel napisZlyPIN;
     public final String PIN;
     public GridBagConstraints gbc;
+
+    /**
+     * konstruktor
+     */
     public PanelPIN() {
         PIN =  "1234";
         setLayout(new GridBagLayout());

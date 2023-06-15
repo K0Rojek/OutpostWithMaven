@@ -13,12 +13,18 @@ import outPost.PaczkomatGUI;
 import outPost.przyciski.PrzyciskBazowy;
 import outPost.przyciski.PrzyciskPowrot;
 
+/**
+ * klasa z panelem płatności, dziedzicząca JPanel
+ */
 public class PanelPlatnosc extends JPanel {
     public JButton buttonPowrot;
     public JButton buttonZaplac;
     public JLabel labelKwota;
     public double kwotaDoZaplaty;
 
+    /**
+     * konstruktor
+     */
     public PanelPlatnosc() {
         setLayout(new GridBagLayout());
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);

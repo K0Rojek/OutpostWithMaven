@@ -6,10 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="ff5fdbba-91ba-4517-9878-f147c049f6ec" name="Changes" comment="added comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/Outpost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/Outpost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PaczkomatGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/PaczkomatGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/Ramka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/Ramka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/wyjatki/WprowadzonoBledneDaneWyjatek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/wyjatki/WprowadzonoBledneDaneWyjatek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelADMIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelADMIN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelCentrala.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelCentrala.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelDanePaczki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelDanePaczki.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelGlowny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelGlowny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelKoniecNadania.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelKoniecNadania.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelOdbioru.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelOdbioru.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelOtwarciaSkrytki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelOtwarciaSkrytki.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelOutpost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelOutpost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelPIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelPIN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelPlatnosc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelPlatnosc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelPowrotZatwierdz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelPowrotZatwierdz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelWybierzPaczke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelWybierzPaczke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/przyciski/PrzyciskADMIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/przyciski/PrzyciskADMIN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/przyciski/PrzyciskBazowy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/przyciski/PrzyciskBazowy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686817154050</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added comments">
+      <created>1686818503703</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686818503703</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

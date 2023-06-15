@@ -12,11 +12,17 @@ import java.awt.Insets;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+/**
+ * klasa z panelem z danymi paczki, dziedzicząca JPanel
+ */
 public class PanelDanePaczki extends JPanel{
 
     public PanelPowrotZatwierdz dolnyPanel;
     public PoleTekstoweBazowe poleTelefonNadawcy, poleTelefonOdbiorcy, poleKodPaczkomatu;
 
+    /**
+     * konstruktor
+     */
     public PanelDanePaczki() {
         setLayout(new GridBagLayout());
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);

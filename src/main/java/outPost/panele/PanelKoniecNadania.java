@@ -12,11 +12,17 @@ import javax.swing.JPanel;
 import outPost.PaczkomatGUI;
 import outPost.przyciski.PrzyciskPowrot;
 
+/**
+ * klasa z panelem na koniec nadania, dziedzicząca JPanel
+ */
 public class PanelKoniecNadania extends JPanel {
     public JButton buttonPowrot;
     public JLabel labelPlatnosc;
     public JLabel labelPlatnosc2;
 
+    /**
+     * konstruktor
+     */
     public PanelKoniecNadania() {
         setLayout(new GridBagLayout());
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);

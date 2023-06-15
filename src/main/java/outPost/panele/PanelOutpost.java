@@ -6,8 +6,15 @@ import java.awt.Font;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+/**
+ * klasa z panelem outpost, dziedzicząca JPanel
+ */
 public class PanelOutpost extends JPanel {
     public JLabel tytul;
+
+    /**
+     * konstruktor
+     */
     public PanelOutpost() {
         // Ustawienie background kolor panelu
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);

@@ -8,6 +8,9 @@ import java.awt.Font;
 
 import javax.swing.JButton;
 
+/**
+ * klasa z bazowym przyciskiem, dziedziczącym JButton
+ */
 public class PrzyciskBazowy  extends JButton {
 
     public PrzyciskBazowy() {

@@ -9,9 +9,15 @@ import java.awt.BorderLayout;
 
 import javax.swing.JPanel;
 
+/**
+ * klasa z panelem powróć/zatwierdź, dziedzicząca JPanel
+ */
 public class PanelPowrotZatwierdz extends JPanel {
     public PrzyciskBazowy buttonZatwierdz, buttonPowrot;
 
+    /**
+     * konstruktor
+     */
     public PanelPowrotZatwierdz() {
         // Ustawienie atrybutow JPanel
         setLayout(new BorderLayout());

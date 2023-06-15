@@ -7,10 +7,16 @@ import outPost.pola.PoleTekstoweBazowe;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * klasa z panelem centrali, dziedzicząca JPanel
+ */
 public class PanelCentrala extends JPanel {
     public PrzyciskBazowy przyciskBazowy;
     public PoleTekstoweBazowe poleWysylka;
 
+    /**
+     * konstruktor klasy PanelCentrala
+     */
     public PanelCentrala() {
         setLayout(new GridBagLayout());
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);

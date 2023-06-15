@@ -6,12 +6,18 @@ import outPost.pola.PoleTekstoweBazowe;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * klasa z panelem odbioru, dziedzicząca JPanel
+ */
 public class PanelOdbioru extends JPanel {
     public PanelPowrotZatwierdz dolnyPanel;
     public PoleTekstoweBazowe poleTelefon, poleKodOdbioru;
     public JLabel napisOdbioru, napisTelefon, zleDane;
     public GridBagConstraints gbc;
 
+    /**
+     * konstruktor
+     */
     public PanelOdbioru() {
         setLayout(new GridBagLayout());
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);

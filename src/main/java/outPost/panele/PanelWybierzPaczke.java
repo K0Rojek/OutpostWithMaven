@@ -12,11 +12,18 @@ import java.awt.Insets;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
+/**
+ * klasa z panelem wyboru paczki, dziedzicząca JPanel
+ */
 public class PanelWybierzPaczke extends JPanel {
     public JLabel napisWyboru;
     public PrzyciskBazowy buttonXXL,buttonM,buttonS;
     public JButton przyciskPowrot;
 
+    /**
+     * konstruktor
+     */
     public PanelWybierzPaczke() {
         setBackground(PaczkomatGUI.Kolory.kolorTlaTytulu);
         setLayout(new GridBagLayout());
