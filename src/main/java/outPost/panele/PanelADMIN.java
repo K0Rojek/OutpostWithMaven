@@ -9,6 +9,8 @@ import outPost.paczki.Paczka;
 import java.awt.*;
 import java.util.ArrayList;
 
+
+
 public class PanelADMIN extends JPanel {
     public JPanel panelPaczki;
     public JLabel labelADMIN;

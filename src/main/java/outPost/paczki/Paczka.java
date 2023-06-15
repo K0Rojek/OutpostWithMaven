@@ -1,5 +1,8 @@
 package outPost.paczki;
 
+/**
+ * klasa Paczka, która zawiera wszystkie informacje o paczce oraz implementuje interfejs typPaczki
+ */
 public class Paczka implements typPaczki {
 
     protected double rozmiarWysokosc;
@@ -12,8 +15,20 @@ public class Paczka implements typPaczki {
     protected String kodPaczkomatuNadajcego;
     protected String kodOdbioru;
 
+    /**
+     * boolowska zmienna, przechowyjąca informacje o tym czy paczka zostala dostarczona
+     */
     protected boolean dostarczona;
 
+    /**
+     * konstruktor dla klasy Paczka
+     * @param numerTelefonuOdbiorcy numer telefonu odbiorcy
+     * @param numerTelefonuNadawcy numer telefonu nadawcy
+     * @param kodPaczkomatuDocelowego kod paczkomatu docelowego
+     * @param kodPaczkomatuNadajcego kod paczkomatu nadawczego
+     * @param dostarczona informacja czy paczka została dostarczona
+     * @param kodOdbioru kod odbioru paczki
+     */
     public Paczka(String numerTelefonuOdbiorcy,
                   String numerTelefonuNadawcy,
                   String kodPaczkomatuDocelowego,
@@ -27,6 +42,10 @@ public class Paczka implements typPaczki {
         this.dostarczona = dostarczona;
         this.kodOdbioru = kodOdbioru;
     }
+
+    /**
+     * domyślny konstruktor dla klasy Paczka
+     */
     public Paczka() {};
 
     @Override

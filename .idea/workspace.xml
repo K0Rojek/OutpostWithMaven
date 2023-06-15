@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff5fdbba-91ba-4517-9878-f147c049f6ec" name="Changes" comment="minor updates">
-      <change beforePath="$PROJECT_DIR$/paczkomaty1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/Outpost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/Outpost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PaczkomatGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/PaczkomatGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/paczki/Paczka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/paczki/Paczka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/paczki/PaczkaM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/paczki/PaczkaM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/paczki/PaczkaS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/paczki/PaczkaS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/paczki/PaczkaXXL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/paczki/PaczkaXXL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/paczki/typPaczki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/paczki/typPaczki.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelADMIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelADMIN.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +51,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686589057477</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="minor updates">
+      <created>1686589397678</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686589397678</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
