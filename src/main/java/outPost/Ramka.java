@@ -11,8 +11,14 @@ import java.util.ArrayList;
 
 import static outPost.Outpost.serializePaczkomaty;
 
-
+/**
+ * klasa Ramka dziedzicząca JFrame
+ */
 public class Ramka extends JFrame {
+
+    /**
+     * konstruktor ramki, posiadający listener nasłuchujący zamknięcia okna
+     */
     public Ramka() {
         //listener nasłuchujący eventu zamknięcia okna X
         addWindowListener(new WindowAdapter() {

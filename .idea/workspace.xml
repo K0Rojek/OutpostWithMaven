@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff5fdbba-91ba-4517-9878-f147c049f6ec" name="Changes" comment="minor updates">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ff5fdbba-91ba-4517-9878-f147c049f6ec" name="Changes" comment="added comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/paczki/Paczka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/paczki/Paczka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/paczki/PaczkaM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/paczki/PaczkaM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/paczki/PaczkaS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/paczki/PaczkaS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/paczki/PaczkaXXL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/paczki/PaczkaXXL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/paczki/typPaczki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/paczki/typPaczki.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelADMIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/panele/PanelADMIN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/Outpost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/Outpost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/PaczkomatGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/PaczkomatGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/Ramka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/Ramka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/outPost/wyjatki/WprowadzonoBledneDaneWyjatek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/outPost/wyjatki/WprowadzonoBledneDaneWyjatek.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,11 +98,19 @@
       <option name="project" value="LOCAL" />
       <updated>1686589397678</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added comments">
+      <created>1686817154050</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686817154050</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="minor updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor updates" />
+    <MESSAGE value="added comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="added comments" />
   </component>
 </project>

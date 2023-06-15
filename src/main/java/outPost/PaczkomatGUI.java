@@ -11,8 +11,14 @@ import java.awt.*;
 import java.util.ArrayList;
 import javax.swing.*;
 
+
+/**
+ * klasa PaczkomatGUI, serce projektu, zawiera serializacje XML
+ */
 public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
-    //klasa wewnętrzna
+    /**
+     * klasa wewnętrzna z kolorami interfejsu graficznego
+     */
     public class Kolory {
         static final public Color kolorTlaTytulu = new Color(255, 224, 179);
         static final public Color kolorPrzyciskow = new Color(255, 218, 137);
@@ -46,6 +52,11 @@ public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
 
     // ------------------------------- PACZKOMAT ----------------------------------------
 
+    /**
+     * konstruktor PaczkomatGUI
+     * @param nazwaPaczkomatu nazwa paczkomatu
+     * @param kodPaczkomatu kod paczkomatu
+     */
     public PaczkomatGUI(String nazwaPaczkomatu, String kodPaczkomatu) {
         ramka =  new Ramka();
         ramka.setTitle(nazwaPaczkomatu);
@@ -59,7 +70,9 @@ public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
         actionListenery();
     }
 
-
+    /**
+     * domyślny konstruktor PaczkomatGUI
+     */
     public PaczkomatGUI() {
         ramka =  new Ramka();
         ramka.setTitle(nazwaPaczkomatuX);
@@ -67,6 +80,9 @@ public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
         actionListenery();
     }
 
+    /**
+     * metoda tworząca wszystkie panele
+     */
     void stworzPanele(){
         panelPIN = new PanelPIN();
         panelADMIN = new PanelADMIN();
@@ -81,6 +97,9 @@ public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
         panelOtwarciaSkrytki = new PanelOtwarciaSkrytki();
     }
 
+    /**
+     * metoda ze wszystkimi action listenerami gui (oprócz nasłuchiwania zamknięcia okna)
+     */
     void actionListenery(){
         //--------------------------------- ACTION LISTENERY GUI ----------------------------------------
 
@@ -249,6 +268,7 @@ public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
             nrTelefonuNadawcy = panelDanePaczki.poleTelefonNadawcy.getText();
             nrTelefonuOdbiorcy = panelDanePaczki.poleTelefonOdbiorcy.getText();
 
+            //wyjątek błędnych danych przy nadaniu paczki
             try {
                 if ( kodPaczkomatuDocelowego.isEmpty() || nrTelefonuOdbiorcy.isEmpty() || nrTelefonuNadawcy.isEmpty() ) {
                     throw new WprowadzonoBledneDaneWyjatek(ramka);
@@ -280,11 +300,17 @@ public class PaczkomatGUI implements Comparable<PaczkomatGUI> {
         redraw();
     }
 
+    /**
+     * metoda do odświeżania ramki
+     */
     void redraw() {
         ramka.revalidate();
         ramka.repaint();
     }
 
+    /**
+     * metoda tworząca losowy kod odbioru
+     */
     void stworzKodOdbioru(){
         int kodLiczba = (int) ((Math.random() * (9999 - 1000)) + 1000);
         System.out.println(kodLiczba);

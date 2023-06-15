@@ -10,12 +10,19 @@ import outPost.paczki.Paczka;
 import outPost.panele.PanelCentrala;
 import outPost.panele.PanelOutpost;
 
+/**
+ * klasa zawierająca metodę main
+ */
 public class Outpost{
     Ramka ramka;
     PanelOutpost panelOutpost = new PanelOutpost();
     PanelCentrala panelCentrala = new PanelCentrala();
     static ArrayList<PaczkomatGUI> paczkomaty = new ArrayList<>();
 
+    /**
+     * metoda main
+     * @param args argumenty wykonania
+     */
     public static void main(String[] args) {
         Outpost outpost = new Outpost();
 //        PaczkomatGUI paczkomat1 = new PaczkomatGUI("Paczkomat Krakow 1111", "1111");
@@ -25,6 +32,9 @@ public class Outpost{
 //        paczkomaty.add(paczkomat2);
     }
 
+    /**
+     * konstruktor klasy Outpost, w którym na start dane z pliku są deserializowane
+     */
     public Outpost() {
         try {
             paczkomaty = deserializePaczkomaty();
