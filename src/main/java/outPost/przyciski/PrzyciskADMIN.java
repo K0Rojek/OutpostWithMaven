@@ -3,7 +3,7 @@ package outPost.przyciski;
 import java.awt.Dimension;
 
 /**
- * klasa z panelem odbioru, dziedzicząca z przycisku bazowego
+ * klasa z przyciskiem admina, dziedzicząca z przycisku bazowego
  */
 public class PrzyciskADMIN extends PrzyciskBazowy {
 
